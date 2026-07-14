@@ -67,7 +67,7 @@ export default function ProfileCard() {
           {/* Core photo canvas */}
           <div className="absolute inset-4 rounded-full overflow-hidden border border-[#222] bg-[#111]">
             <img
-              src="/src/assets/images/ahmad_profile_1783998720745.png"
+              src="/assets/images/ahmad_profile_1783998720745.png"
               alt={personalInfo.name}
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover grayscale opacity-90 hover:grayscale-0 transition-all duration-500 ease-out"

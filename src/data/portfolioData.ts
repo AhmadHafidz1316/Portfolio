@@ -120,8 +120,8 @@ export const projectsData: Project[] = [
     longDescription: "Designed and developed highly interactive, fully responsive frontend systems for academic administration. Built reusable and modular React components, integrated RESTful APIs with .NET backends, handled state state transitions efficiently, and achieved optimized performance via code splitting.",
     tags: ["React.js", "TypeScript", ".NET Core", "REST API", "Tailwind CSS"],
     category: "Web",
-    imageUrl: "/src/assets/images/binus.png",
-    imageUrls: ["/src/assets/images/binus.png", "/src/assets/images/binus_1.png"],
+    imageUrl: "/assets/images/binus.png",
+    imageUrls: ["/assets/images/binus.png", "/assets/images/binus_1.png"],
     features: [
       "Dynamic data grids with client-side searching and sorting",
       "API request bundling and client-side optimization",
@@ -137,12 +137,12 @@ export const projectsData: Project[] = [
     longDescription: "Engineered a cross-platform mobile e-commerce application using Flutter. Focused heavily on high-fidelity UI animations, secure authentication mechanisms, cart-to-checkout pipelines, and real-time product catalogs fetching from REST APIs to maximize consumer conversion rate.",
     tags: ["Flutter", "Dart", "Firebase", "REST API", "E-Commerce"],
     category: "Mobile",
-    imageUrl: "/src/assets/images/fresh_produce_app.jpeg",
+    imageUrl: "/assets/images/fresh_produce_app.jpeg",
     imageUrls: [
-      "/src/assets/images/fresh_produce_app.jpeg",
-      "/src/assets/images/fresh_produce_app_1.jpeg",
-      "/src/assets/images/sayur.jpeg",
-      "/src/assets/images/sayur_1.png"
+      "/assets/images/fresh_produce_app.jpeg",
+      "/assets/images/fresh_produce_app_1.jpeg",
+      "/assets/images/sayur.jpeg",
+      "/assets/images/sayur_1.png"
     ],
     features: [
       "Real-time catalog search and categorization filtering",
@@ -159,12 +159,12 @@ export const projectsData: Project[] = [
     longDescription: "Designed a Full Stack management portal for tracking LPG gas cylinder transactions and warehousing inventories. Built with a ReactJS frontend and a Node.js/Express backend, utilizing PostgreSQL for secure database transactions and an automated reporting service with PDF export.",
     tags: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS"],
     category: "Web",
-    imageUrl: "/src/assets/images/gas_1.jpeg",
+    imageUrl: "/assets/images/gas_1.jpeg",
     imageUrls: [
-      "/src/assets/images/gas.jpeg",
-      "/src/assets/images/gas_1.jpeg",
-      "/src/assets/images/gas_2.jpeg",
-      "/src/assets/images/gas_3.jpeg"
+      "/assets/images/gas.jpeg",
+      "/assets/images/gas_1.jpeg",
+      "/assets/images/gas_2.jpeg",
+      "/assets/images/gas_3.jpeg"
     ],
     features: [
       "Dynamic inventory trackers checking real-time cylinder reserves",
@@ -181,11 +181,11 @@ export const projectsData: Project[] = [
     longDescription: "Developed a comprehensive helpdesk and ticketing system for enterprise clients. Leveraged Laravel's Eloquent ORM for efficient database management, while ReactJS provided a dynamic and responsive user interface. Implemented role-based access control, ticket categorization, and real-time notifications to enhance user experience.",
     tags: ["React.js", "Laravel", "PHP", "MySQL", "Tailwind CSS"],
     category: "Web",
-    imageUrl: "/src/assets/images/4net.png",
+    imageUrl: "/assets/images/4net.png",
     imageUrls: [
-      "/src/assets/images/4net.png",
-      "/src/assets/images/4net_1.png",
-      "/src/assets/images/4net_2.png"
+      "/assets/images/4net.png",
+      "/assets/images/4net_1.png",
+      "/assets/images/4net_2.png"
     ],
     features: [
       "Optimized Eloquent ORM relationships ensuring high performance",
@@ -202,11 +202,11 @@ export const projectsData: Project[] = [
     longDescription: "Developed a web application that scans and extracts text from receipts using Optical Character Recognition (OCR) technology. Leveraged Firebase for real-time data storage and Gemini API for advanced OCR processing. Implemented a user-friendly interface with React.js and Tailwind CSS, ensuring a seamless user experience.",
     tags: ["React.js", "Firebase", "OCR", "Tailwind CSS", "Gemini API"],
     category: "Web",
-    imageUrl: "/src/assets/images/ocr.png",
+    imageUrl: "/assets/images/ocr.png",
     imageUrls: [
-      "/src/assets/images/ocr.png",
-      "/src/assets/images/ocr_1.png",
-      "/src/assets/images/ocr_2.png"
+      "/assets/images/ocr.png",
+      "/assets/images/ocr_1.png",
+      "/assets/images/ocr_2.png"
     ],
     features: [
       "Real-time receipt scanning and text extraction using OCR technology",
