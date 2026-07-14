@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowDown, Send, Github, Linkedin, Twitter, Globe, Cpu, Code, Smartphone, Server, Terminal, Layers } from "lucide-react";
+import { ArrowDown, Send, Github, Linkedin, Globe, Cpu, Code, Smartphone, Server, Terminal, Layers } from "lucide-react";
 import { personalInfo } from "../../data/portfolioData";
 import BlurText from "../animations/BlurText";
 import Magnet from "../animations/Magnet";
@@ -141,15 +141,6 @@ export default function Hero({ onNavigate }: HeroProps) {
                   aria-label="LinkedIn Profile"
                 >
                   <Linkedin size={16} />
-                </a>
-                <a
-                  href={personalInfo.twitter}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-neutral-500 hover:text-white transition-colors duration-200"
-                  aria-label="Twitter Profile"
-                >
-                  <Twitter size={16} />
                 </a>
               </div>
             </motion.div>

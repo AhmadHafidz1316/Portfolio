@@ -173,25 +173,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Quick Demo Database status indicator card */}
-            <div className="bg-[#0a0a0a]/50 border border-[#1a1a1a] p-5 rounded-xl flex flex-col justify-center">
-              <div className="flex items-center justify-between w-full mb-3">
-                <span className="font-mono text-[9px] text-neutral-400 flex items-center gap-1.5 font-bold uppercase tracking-[0.25em]">
-                  <Database size={12} className="text-white" /> Demo Local Database
-                </span>
-                <span className="h-1.5 w-1.5 rounded-full bg-white animate-pulse" />
-              </div>
-              <p className="text-[10px] text-neutral-500 leading-normal mb-4 font-sans font-light">
-                Messages submitted are stored securely in your browser's local storage. Use the Admin Panel below to inspect the real-time record state.
-              </p>
-              <button
-                onClick={() => setShowAdminPanel(!showAdminPanel)}
-                className="w-full bg-[#050505] border border-[#1a1a1a] hover:border-[#222] hover:bg-[#0d0d0d] transition-colors text-neutral-300 font-mono text-[10px] uppercase tracking-widest py-2.5 rounded-full flex items-center justify-center gap-2 cursor-pointer font-bold"
-              >
-                <Inbox size={12} />
-                {showAdminPanel ? "Hide Admin Inbox" : "Open Admin Inbox"} ({messages.length})
-              </button>
-            </div>
+
           </div>
 
           {/* Form container */}

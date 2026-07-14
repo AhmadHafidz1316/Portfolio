@@ -8,9 +8,8 @@ export const personalInfo = {
   location: "Bogor, West Java, Indonesia",
   email: "ahmadhafidzrinoputra1312@gmail.com",
   phone: "+62 838 0710 2775",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  twitter: "https://twitter.com",
+  github: "https://github.com/AhmadHafidz1316",
+  linkedin: "https://www.linkedin.com/in/ahmad-hafidz-780988347/",
   stats: [
     { value: "2+", label: "Years of Experience" },
     { value: "15+", label: "Completed Projects" },
@@ -121,30 +120,37 @@ export const projectsData: Project[] = [
     longDescription: "Designed and developed highly interactive, fully responsive frontend systems for academic administration. Built reusable and modular React components, integrated RESTful APIs with .NET backends, handled state state transitions efficiently, and achieved optimized performance via code splitting.",
     tags: ["React.js", "TypeScript", ".NET Core", "REST API", "Tailwind CSS"],
     category: "Web",
-    imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/src/assets/images/binus.png",
+    imageUrls: ["/src/assets/images/binus.png", "/src/assets/images/binus_1.png"],
     features: [
       "Dynamic data grids with client-side searching and sorting",
       "API request bundling and client-side optimization",
       "Role-based navigation and protected layouts",
       "Comprehensive state management and error feedback overlays"
     ],
-    technologies: ["React.js", "TypeScript", "Tailwind CSS", ".NET Core", "Zustand", "REST APIs"]
+    technologies: ["React.js", "TypeScript", "Tailwind CSS", ".NET Core", "TanStack Query", "REST APIs"]
   },
   {
     id: "proj2",
-    title: "Fresh Produce E-Commerce Mobile App",
+    title: "Gerobakan - E-Commerce Mobile App",
     description: "A smooth, responsive Flutter mobile application tailored for local fresh produce buying and selling.",
     longDescription: "Engineered a cross-platform mobile e-commerce application using Flutter. Focused heavily on high-fidelity UI animations, secure authentication mechanisms, cart-to-checkout pipelines, and real-time product catalogs fetching from REST APIs to maximize consumer conversion rate.",
     tags: ["Flutter", "Dart", "Firebase", "REST API", "E-Commerce"],
     category: "Mobile",
-    imageUrl: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/src/assets/images/fresh_produce_app.jpeg",
+    imageUrls: [
+      "/src/assets/images/fresh_produce_app.jpeg",
+      "/src/assets/images/fresh_produce_app_1.jpeg",
+      "/src/assets/images/sayur.jpeg",
+      "/src/assets/images/sayur_1.png"
+    ],
     features: [
       "Real-time catalog search and categorization filtering",
       "Secure user authentication for both merchants and buyers",
       "Seamless shopping cart, address coordinates, and payment checkout flow",
       "Optimized offline image caching and fast screen transition speeds"
     ],
-    technologies: ["Flutter", "Dart", "Provider", "RESTful APIs", "Firebase Auth", "SQLite"]
+    technologies: ["Flutter", "Dart", "GetX", "RESTful APIs", "Firebase Auth", "Strapi JS"]
   },
   {
     id: "proj3",
@@ -153,7 +159,13 @@ export const projectsData: Project[] = [
     longDescription: "Designed a Full Stack management portal for tracking LPG gas cylinder transactions and warehousing inventories. Built with a ReactJS frontend and a Node.js/Express backend, utilizing PostgreSQL for secure database transactions and an automated reporting service with PDF export.",
     tags: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS"],
     category: "Web",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/src/assets/images/gas_1.jpeg",
+    imageUrls: [
+      "/src/assets/images/gas.jpeg",
+      "/src/assets/images/gas_1.jpeg",
+      "/src/assets/images/gas_2.jpeg",
+      "/src/assets/images/gas_3.jpeg"
+    ],
     features: [
       "Dynamic inventory trackers checking real-time cylinder reserves",
       "Automated sales invoicing with instant PDF downloads",
@@ -164,12 +176,17 @@ export const projectsData: Project[] = [
   },
   {
     id: "proj4",
-    title: "Enterprise Web Applications Portal",
+    title: "Helpdesk & Ticketing System",
     description: "Modular enterprise management systems built utilizing Laravel backend architecture and ReactJS frontends.",
-    longDescription: "Developed specialized enterprise management applications during internship, using a Laravel backend and a ReactJS frontend. Focused on accelerating database querying speed, writing clean API endpoints, and organizing intuitive dashboards for complex business data.",
+    longDescription: "Developed a comprehensive helpdesk and ticketing system for enterprise clients. Leveraged Laravel's Eloquent ORM for efficient database management, while ReactJS provided a dynamic and responsive user interface. Implemented role-based access control, ticket categorization, and real-time notifications to enhance user experience.",
     tags: ["React.js", "Laravel", "PHP", "MySQL", "Tailwind CSS"],
     category: "Web",
-    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/src/assets/images/4net.png",
+    imageUrls: [
+      "/src/assets/images/4net.png",
+      "/src/assets/images/4net_1.png",
+      "/src/assets/images/4net_2.png"
+    ],
     features: [
       "Optimized Eloquent ORM relationships ensuring high performance",
       "Dynamic tables parsing CSV and JSON records",
@@ -177,6 +194,27 @@ export const projectsData: Project[] = [
       "Unified REST API contracts ensuring clean data flow"
     ],
     technologies: ["React.js", "Laravel", "Eloquent ORM", "MySQL", "REST APIs", "Tailwind CSS"]
+  },
+  {
+    id: "proj5",
+    title: "KlipNota - OCR Nota Scanner",
+    description: "A web application that scans and extracts text from receipts using Optical Character Recognition (OCR) technology.",
+    longDescription: "Developed a web application that scans and extracts text from receipts using Optical Character Recognition (OCR) technology. Leveraged Firebase for real-time data storage and Gemini API for advanced OCR processing. Implemented a user-friendly interface with React.js and Tailwind CSS, ensuring a seamless user experience.",
+    tags: ["React.js", "Firebase", "OCR", "Tailwind CSS", "Gemini API"],
+    category: "Web",
+    imageUrl: "/src/assets/images/ocr.png",
+    imageUrls: [
+      "/src/assets/images/ocr.png",
+      "/src/assets/images/ocr_1.png",
+      "/src/assets/images/ocr_2.png"
+    ],
+    features: [
+      "Real-time receipt scanning and text extraction using OCR technology",
+      "Integration with Gemini API for advanced OCR processing",
+      "User-friendly interface with responsive design",
+      "Secure data storage and retrieval using Firebase"
+    ],
+    technologies: ["React.js", "Firebase", "OCR", "Tailwind CSS", "Gemini API"]
   }
 ];
 

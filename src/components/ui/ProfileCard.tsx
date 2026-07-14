@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Github, Linkedin, Twitter, Sparkles, Send, Globe, Mail, Phone, MapPin, Code, Cpu, Smartphone, Server, Terminal, Layers } from "lucide-react";
+import { Github, Linkedin, Sparkles, Send, Globe, Mail, Phone, MapPin, Code, Cpu, Smartphone, Server, Terminal, Layers } from "lucide-react";
 import { personalInfo } from "../../data/portfolioData";
 
 export default function ProfileCard() {
@@ -67,7 +67,7 @@ export default function ProfileCard() {
           {/* Core photo canvas */}
           <div className="absolute inset-4 rounded-full overflow-hidden border border-[#222] bg-[#111]">
             <img
-              src="/src/assets/images/ahmad_profile_1783998720745.jpg"
+              src="/src/assets/images/ahmad_profile_1783998720745.png"
               alt={personalInfo.name}
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover grayscale opacity-90 hover:grayscale-0 transition-all duration-500 ease-out"
@@ -106,37 +106,11 @@ export default function ProfileCard() {
         </div>
 
         {/* Infinite Loop Marquee (Selipan Logo Loop) */}
-        <div className="w-full bg-[#050505] border border-[#121212] py-2.5 rounded-2xl overflow-hidden mb-6 relative">
-          <div className="absolute left-0 top-0 bottom-0 w-6 bg-gradient-to-r from-[#050505] to-transparent z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-6 bg-gradient-to-l from-[#050505] to-transparent z-10" />
-          
-          <motion.div
-            className="flex gap-4 items-center whitespace-nowrap"
-            animate={{ x: [0, -320] }}
-            transition={{
-              repeat: Infinity,
-              duration: 15,
-              ease: "linear",
-            }}
-          >
-            {marqueeItems.map((tech, idx) => (
-              <div
-                key={idx}
-                className="flex items-center gap-1.5 bg-[#0a0a0a] border border-[#1a1a1a] px-2.5 py-1 rounded-full shrink-0"
-              >
-                {tech.icon}
-                <span className="font-mono text-[9px] text-neutral-300 font-medium">
-                  {tech.name}
-                </span>
-              </div>
-            ))}
-          </motion.div>
-        </div>
 
         {/* Social Actions Grid */}
         <div className="flex items-center gap-3 w-full">
           <a
-            href="https://github.com"
+            href="https://github.com/AhmadHafidz1316"
             target="_blank"
             rel="noreferrer"
             className="flex-1 bg-[#121212] hover:bg-[#181818] border border-[#1e1e1e] hover:border-[#2a2a2a] py-3 rounded-full flex items-center justify-center gap-2 text-neutral-400 hover:text-white transition-all duration-300 text-[10px] uppercase tracking-wider font-semibold cursor-pointer"
@@ -145,7 +119,7 @@ export default function ProfileCard() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/ahmad-hafidz-780988347/"
             target="_blank"
             rel="noreferrer"
             className="flex-1 bg-[#121212] hover:bg-[#181818] border border-[#1e1e1e] hover:border-[#2a2a2a] py-3 rounded-full flex items-center justify-center gap-2 text-neutral-400 hover:text-white transition-all duration-300 text-[10px] uppercase tracking-wider font-semibold cursor-pointer"

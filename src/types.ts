@@ -6,6 +6,7 @@ export interface Project {
   tags: string[];
   category: "Web" | "Mobile" | "AI/Cloud";
   imageUrl: string;
+  imageUrls?: string[];
   demoUrl?: string;
   githubUrl?: string;
   features: string[];
